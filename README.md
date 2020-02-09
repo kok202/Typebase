@@ -1,3 +1,8 @@
+## Todo web memo application
+This project was developed with reference to the video below.
+[Link. 1](https://www.youtube.com/watch?v=WYnA1I31Sto&list=PLRB_0OYQAHMPu7EsP51ksMd489CrEfICT&index=2&t=0s)  
+[Link. 2](https://www.youtube.com/watch?v=PFBRhxjIBUM&list=PLV6pYUAZ-ZoHx0OjUduzaFSZ4_cUqXLm0)  
+
 ### Start with Typescript + React + Firebase + Mobx
 
 ```

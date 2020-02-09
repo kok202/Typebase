@@ -1,7 +1,7 @@
 import React from "react";
 import TaskAddProps from "./TaskAddProps";
 import SaveIcon from '@material-ui/icons/Save';
-import { IconButton, TextField } from "@material-ui/core";
+import { IconButton, Paper, InputBase } from "@material-ui/core";
 import { observer, inject } from "mobx-react";
 import TaskStore from "../store/TaskStore";
 
@@ -29,16 +29,16 @@ class TaskAdd extends React.Component<TaskAddProps, {}> {
     render(){
         return (
             <form>
-                <TextField 
-                    id = "outlined-basic" 
-                    label = "Outlined" 
-                    variant = "outlined" 
-                    inputRef = {ref => {this.input = ref as HTMLInputElement}}/>
-                <IconButton 
-                    aria-label = "delete"
-                    onClick = {this.onClickHandler}>
-                    <SaveIcon />
-                </IconButton>
+                <Paper >
+                        <InputBase 
+                            id = "outlined-basic" 
+                            inputRef = {ref => {this.input = ref as HTMLInputElement}}/>
+                        <IconButton 
+                            aria-label = "delete"
+                            onClick = {this.onClickHandler}>
+                            <SaveIcon />
+                        </IconButton>
+                </Paper>
             </form>
         );  
       }
