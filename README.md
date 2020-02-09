@@ -18,7 +18,7 @@ npm add firbase
 npm start
 ```
 
-# Activate decorator
+### Activate decorator
 - Edit tsconfig
   - Activate decorator configuration
   - "experimentalDecorators": false -> true
