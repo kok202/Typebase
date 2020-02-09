@@ -1,4 +1,4 @@
-#### Start with Typescript + React + Firebase 
+### Start with Typescript + React + Firebase + Mobx
 
 ```
 create-react-app todo-typescript --template typescript
@@ -13,7 +13,7 @@ npm add firbase
 npm start
 ```
 
-#### Build and deploy using by firebase hosing
+### Build and deploy using by firebase hosing
 
 ```
 npm run build
